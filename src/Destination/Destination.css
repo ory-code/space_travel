@@ -1,0 +1,19 @@
+@media screen and (max-width: 767px) {
+  body {
+    background-image: url("../Assets/destination/background-destination-mobile.jpg");
+
+    background-size: cover;
+  }
+
+  .destination_container_intro {
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    font-family: "Barlow Condensed";
+  }
+  .destination_container_intro p {
+    margin: 4px;
+    font-size: 16px;
+  }
+}

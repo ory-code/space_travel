@@ -91,4 +91,10 @@
   .li_num {
     font-weight: bold;
   }
+
+Link ::before, :visited   {
+  color: white;
+  text-decoration: none;
+}
+
 }

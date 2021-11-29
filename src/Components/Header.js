@@ -2,13 +2,14 @@ import React from "react";
 import logo from "../Assets/shared/logo.svg";
 import icn_nav from "../Assets/shared/icon-hamburger.svg";
 import { useMediaQuery } from "react-responsive";
+import { Link } from "react-router-dom";
 import "./Header.css";
 const Header = () => {
   const desktop = useMediaQuery({
     query: "(min-width: 1024px)",
   });
   const tablet = useMediaQuery({
-    query: "(min-width: 768px) and (max-width: 767px)"
+    query: "(min-width: 768px) and (max-width: 767px)",
   });
   const mobile = useMediaQuery({
     query: "(max-width: 767px)",
@@ -43,13 +44,15 @@ const Header = () => {
         <div className="header">
           <img src={logo} alt="logo" className="logo" />
 
-          <div className="line" ></div>
+          <div className="line"></div>
           <nav className="navbar">
             <ul>
               <li className="li_num">00</li>
               <li className="li_text">HOME</li>
               <li className="li_num">01</li>
-              <li className="li_text">DESTINATION</li>
+              <Link style={{textDecoration: 'none'}}  to="/destination">
+                <li className="li_text">DESTINATION</li>
+              </Link>
               <li className="li_num">02</li>
               <li className="li_text">CREW</li>
               <li className="li_num">03</li>
