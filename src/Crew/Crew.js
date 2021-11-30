@@ -7,15 +7,15 @@ const Crew = () => {
   return (
     <div className="crew">
       <Header />
-      <div className="destination_container">
-        <div className="destination_container_intro">
+      <div className="crew_container">
+        <div className="crew_container_intro">
           <p>02</p>
           <p>MEET YOUR CREW</p>
         </div>
         <div>
-          <div className="destination_container_main">
+          <div className="crew_container_main">
             {crew.map((crew, key) => {
-              console.log(crew.images);
+              
               return (
                 <div className="figure" key={key}>
                   <img className="img_crew" src={crew.images.webp} alt="planet" />

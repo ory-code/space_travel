@@ -9,7 +9,6 @@ const Card = () => {
     <div>
       <div className="destination_container_main">
         {planet.map((planet, key) => {
-          console.log(planet.images);
           return (
             <div className="figure" key={key}>
               <img src={planet.images.webp} alt="planet" />
