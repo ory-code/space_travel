@@ -13,6 +13,7 @@ const Card = () => {
           return (
             <div className="figure" key={key}>
               <img src={planet.images.webp} alt="planet" />
+              <div className="figure_text">
               <div className="figure_title">
                 <h1>{planet.name}</h1>
               </div>
@@ -20,6 +21,7 @@ const Card = () => {
                 <p>{planet.description}</p>
               </div>
               <div className="line"></div>
+              <div className="footer_box">
               <div className="figure_footer">
                 <p>AVG. DISTANCE </p>
                 <p className="detail">{planet.distance}</p>
@@ -27,6 +29,8 @@ const Card = () => {
               <div className="figure_footer">
                 <p>EST. TRAVEL TIME</p>
                 <p className="detail" >{planet.travel}</p>
+              </div>
+              </div>
               </div>
             </div>
           );

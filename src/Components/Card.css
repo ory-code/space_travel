@@ -11,6 +11,12 @@
     margin-top: 20px;
     align-items: center;
   }
+  .figure_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
   .figure_title {
     color: #fff;
     font-family: "Bellefair", serif;
@@ -44,5 +50,123 @@
     color: white;
     font-family: "Bellefair";
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .destination_container_main {
+    display: flex;
+    flex-direction: column;
+  }
+  .figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    margin-top: 40px;
+    align-items: center;
+  }
+  .figure_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .figure_title {
+    color: #fff;
+    font-family: "Bellefair", serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+  }
+  .figure_description {
+    color: #d0d6f9;
+    font-family: "Barlow";
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .figure img {
+    width: 250px;
+    height: 250px;
+  }
+  .line {
+    height: 1px;
+    background-color: #6b6b6bab;
+    width: 300px;
+  }
+  .figure_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d0d6f9;
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+  }
+  .figure_footer .detail {
+    color: white;
+    font-family: "Bellefair";
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destination_container_main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .figure {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom:115px;
+    margin-top: 55px;
+  }
+  .figure_text {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+  }
+ .figure_text .figure_title {
+    color: #fff;
+    font-family: "Bellefair", serif;
+    letter-spacing: 3px;
+
+    font-size: 30px;
+  }
+  .figure_description {
+    color: #d0d6f9;
+    font-family: "Barlow";
+    text-align: center;
+    font-size: 18px;
+    width: 400px;
+    margin: 0;
+  }
+
+  .figure img {
+    width: 445px;
+    height: 445px;
+  }
+  .line {
+    height: 1px;
+    background-color: #6b6b6bab;
+    width: 300px;
+  }
+  .figure_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d0d6f9;
+    font-family: "Barlow Condensed";
+    font-size: 20px;
+  }
+  .figure_footer .detail {
+    color: white;
+    font-family: "Bellefair";
+    font-size: 25px;
   }
 }

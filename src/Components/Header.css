@@ -12,9 +12,13 @@
     width: 40px;
     height: 40px;
   }
+  Link ::before, :visited   {
+    color: white;
+    text-decoration: none;
+  }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px){
   .header {
     display: flex;
     justify-content: space-between;
@@ -44,6 +48,10 @@
     font-family: "Barlow Condensed";
     font-size: 17px;
   }
+  Link ::before, :visited   {
+    color: white;
+    text-decoration: none;
+  }
 }
 @media screen and (min-width: 1024px) {
   .header {
@@ -60,7 +68,7 @@
     margin-left: 25px;
   }
 
-  .line {
+ .header .line {
     height: 1px;
     background-color: #6b6b6bab;
     width: 800px;
@@ -76,11 +84,15 @@
     backdrop-filter: blur(10px);
     width: 830px;
   }
-
+ 
+  .navbar ul {
+    display: flex;
+  }
   .navbar li {
     list-style: none;
     font-family: "Barlow Condensed";
     font-size: 17px;
+    margin: 15px;
   }
   .navbar .li_text {
     font-weight: 100;
