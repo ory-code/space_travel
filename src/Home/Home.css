@@ -1,6 +1,8 @@
 @media screen and (max-width: 767px) {
   body {
     background-image: url("../Assets/home/background-home-mobile.jpg");
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   .container {
@@ -59,6 +61,8 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
     background-image: url("../Assets/home/background-home-tablet.jpg");
+   background-attachment: fixed;
+   background-size: cover;
   }
   .container {
     display: flex;
@@ -117,9 +121,10 @@
 }
 
 @media screen and (min-width: 1024px) {
-  body {
-    background-size: cover;
+ body{
     background-image: url("../Assets/home/background-home-desktop.jpg");
+    background-attachment: fixed;
+    background-size: cover;
   }
 
   .container {

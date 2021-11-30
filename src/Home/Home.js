@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "../Components/Header";
 import "./Home.css";
 const Home = () => {
@@ -9,7 +10,6 @@ const Home = () => {
         <div className="text_home">
           <p className="intro_home">SO, YOU WANT TO TRAVEL TO </p>
           <h1> SPACE</h1>
-
           <p className="description_home">
             Let’s face it; if you want to go to space, you might as well
             genuinely go to outer space and not hover kind of on the edge of it.
@@ -17,12 +17,12 @@ const Home = () => {
             world experience!
           </p>
         </div>
-        <div className="exp"><div className="explore">
-        <p>EXPLORE</p>
-      </div></div>
-        
+        <div className="exp">
+          <div className="explore">
+          <Link to="/destination" style={{textDecoration: 'none'}}><p>EXPLORE</p></Link>  
+          </div>
+        </div>
       </div>
-      
     </div>
   );
 };

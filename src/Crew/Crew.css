@@ -1,0 +1,189 @@
+@media screen and (max-width: 767px) {
+  .crew {
+    background-image: url("../Assets/crew/background-crew-mobile.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .destination_container_main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .figure_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .figure_title_crew {
+    color: #fff;
+    font-family: "Bellefair", sans-serif;
+    letter-spacing: 3px;
+    font-weight: 200;
+    font-size: 17px;
+  }
+  .figure_description {
+    color: white;
+    font-family: "Bellefair" sans-serif;
+    text-align: center;
+    letter-spacing: 2.5px;
+  }
+
+  .figure .img_crew {
+    width: 177px;
+    height: 222px;
+  }
+  .line {
+    height: 1px;
+    background-color: #6b6b6bab;
+    width: 300px;
+  }
+  .figure_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d0d6f9;
+    font-family: "Barlow Condensed" sans-serif;
+    text-align: center;
+  }
+  .figure_footer .detail_crew {
+    color: white;
+    font-family: "Bellefair" sans-serif;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .crew {
+    background-image: url("../Assets/crew/background-crew-tablet.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .destination_container_main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    margin-top: 40px;
+    align-items: center;
+  }
+  .figure_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .figure_title_crew {
+    color: #fff;
+    font-family: "Bellefair", sans-serif;
+    letter-spacing: 3px;
+    letter-spacing: 3px;
+    font-size: 28px;
+  }
+  .figure_description {
+    color: white;
+    font-family: "Bellefair";
+    text-align: center;
+    letter-spacing: 2.5px;
+    font-size: 28px;
+  }
+
+  .figure .img_crew {
+    width: 457px;
+    height: 572px;
+  }
+  .line {
+    height: 1px;
+    background-color: #6b6b6bab;
+    width: 300px;
+  }
+  .figure_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d0d6f9;
+    font-family: "Barlow Condensed" sans-serif;
+    text-align: center;
+  }
+  .figure_footer .detail_crew {
+    color: white;
+    font-family: "Bellefair";
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .crew {
+    background-image: url("../Assets/crew/background-crew-tablet.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .destination_container_main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    margin-top: 40px;
+    align-items: center;
+  }
+  .figure_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .figure_title_crew {
+    color: #fff;
+    font-family: "Bellefair", sans-serif;
+    letter-spacing: 3px;
+    letter-spacing: 3px;
+    font-size: 28px;
+  }
+  .figure_description {
+    color: white;
+    font-family: "Bellefair";
+    text-align: center;
+    letter-spacing: 2.5px;
+    font-size: 28px;
+  }
+
+  .figure .img_crew {
+    width: 457px;
+    height: 572px;
+  }
+  .line {
+    height: 1px;
+    background-color: #6b6b6bab;
+    width: 300px;
+  }
+  .figure_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #d0d6f9;
+    font-family: "Barlow Condensed" sans-serif;
+    text-align: center;
+  }
+  .figure_footer .detail_crew {
+    color: white;
+    font-family: "Bellefair" sans-serif;
+    font-size: 25px;
+    width: 775px;
+  }
+}

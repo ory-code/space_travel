@@ -41,10 +41,18 @@
   .navbar ul {
     display: flex;
   }
+  .li_num {
+    margin-right: 5px;
+  }
+  .li_text {
+    margin-right: 10px;
+    font-weight: 100;
+    
+  }
   .navbar li {
     font-weight: bold;
     list-style: none;
-    margin: 15px;
+    
     font-family: "Barlow Condensed";
     font-size: 17px;
   }

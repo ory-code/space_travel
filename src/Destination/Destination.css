@@ -1,5 +1,5 @@
 @media screen and (max-width: 767px) {
-  body {
+  .destination {
     background-image: url("../Assets/destination/background-destination-mobile.jpg");
 
     background-attachment: fixed;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  body {
+  .destination {
     background-image: url("../Assets/destination/background-destination-tablet.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -37,7 +37,7 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  body {
+  .destination {
     background-image: url("../Assets/destination/background-destination-desktop.jpg");
     background-attachment: fixed;
     background-size: cover;
