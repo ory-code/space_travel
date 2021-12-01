@@ -18,7 +18,6 @@
     color: white;
     background-color: #97979721;
     height: auto;
-    
   }
   .icn {
     display: block;
@@ -42,7 +41,7 @@
     font-size: 17px;
   }
 
-  Link :before,
+  Link :active ::before,
   :visited {
     color: white;
     text-decoration: none;
@@ -86,7 +85,9 @@
     font-family: "Barlow Condensed";
     font-size: 17px;
   }
-  Link :before,
+  Link,
+  :active,
+  ::before,
   :visited {
     color: white;
     text-decoration: none;
@@ -141,7 +142,7 @@
     font-weight: bold;
   }
 
-  Link :before,
+  Link :active ::before,
   :visited {
     color: white;
     text-decoration: none;
