@@ -12,13 +12,44 @@
     width: 40px;
     height: 40px;
   }
-  Link ::before, :visited   {
+
+  .navbar {
+    position: relative;
+    color: white;
+    background-color: #97979721;
+    height: auto;
+    
+  }
+  .icn {
+    display: block;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .li_num {
+    margin-right: 5px;
+  }
+  .li_text {
+    margin-right: 10px;
+    font-weight: 100;
+  }
+  .navbar li {
+    font-weight: bold;
+    list-style: none;
+
+    font-family: "Barlow Condensed";
+    font-size: 17px;
+  }
+
+  Link :before,
+  :visited {
     color: white;
     text-decoration: none;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
     display: flex;
     justify-content: space-between;
@@ -47,16 +78,16 @@
   .li_text {
     margin-right: 10px;
     font-weight: 100;
-    
   }
   .navbar li {
     font-weight: bold;
     list-style: none;
-    
+
     font-family: "Barlow Condensed";
     font-size: 17px;
   }
-  Link ::before, :visited   {
+  Link :before,
+  :visited {
     color: white;
     text-decoration: none;
   }
@@ -76,12 +107,10 @@
     margin-left: 25px;
   }
 
- .header .line {
+  .header .line {
     height: 1px;
     background-color: #6b6b6bab;
     width: 800px;
-
-    
   }
 
   .navbar {
@@ -92,7 +121,7 @@
     backdrop-filter: blur(10px);
     width: 830px;
   }
- 
+
   .navbar ul {
     display: flex;
   }
@@ -112,9 +141,9 @@
     font-weight: bold;
   }
 
-Link ::before, :visited   {
-  color: white;
-  text-decoration: none;
-}
-
+  Link :before,
+  :visited {
+    color: white;
+    text-decoration: none;
+  }
 }
